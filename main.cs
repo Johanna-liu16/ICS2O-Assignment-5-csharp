@@ -27,13 +27,13 @@ class Program
         {
             if (counter % 2 == 0)
             {
-             denominator = counter * 2 + 1;
-               answer += num / denominator;
+              denominator = counter * 2 + 1;
+                answer += num / denominator;
             }
             else
             {
-             denominator = counter * 2 + 1;
-               answer += -(num / denominator);
+              denominator = counter * 2 + 1;
+                answer += -(num / denominator);
             }
 
             counter++;
